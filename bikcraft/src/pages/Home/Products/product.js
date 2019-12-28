@@ -40,7 +40,7 @@ export default function Products() {
 
       <div className="call-to-action">
         <p>Clique aqui e veja os detalhes dos produtos</p>
-        <Link><button className='btn btn-black'>Produtos</button></Link>
+        <Link to='/products'><button className='btn btn-black'>Produtos</button></Link>
       </div>
     </section>
   );

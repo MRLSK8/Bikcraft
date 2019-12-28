@@ -1,7 +1,6 @@
-header.header{
-  /* position: fixed; */
+.header{
   width: 100%;
-  height: 90px;
+  height: 80px;
   background-color: #FEC63E;
 }
 
@@ -9,7 +8,7 @@ header.header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0 10px 0px;
+  padding: 10px 0 10px 0px;
 }
 
 .nav-links li{
