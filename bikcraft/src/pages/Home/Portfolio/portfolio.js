@@ -25,7 +25,7 @@ export default function Portfolio() {
         <div className='call-to-action call-to-action-portfolio'>
           <p>Conheça mais o nosso portfólio</p>
           <Link to='/portfolio'>
-            <button className='btn'>Produtos</button>
+            <button className='btn'>Portfólio</button>
           </Link>
         </div>
       </div>

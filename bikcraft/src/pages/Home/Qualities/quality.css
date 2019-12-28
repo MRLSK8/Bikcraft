@@ -1,0 +1,38 @@
+.quality {
+  height: 560px;
+  text-align: center;
+}
+
+.quality::after {
+  content: '';
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url('../../../assets/linhas.svg');
+  margin-top: -400px;
+  margin-left: 164px;
+}
+
+.quality-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px auto;
+}
+
+.subtitle.lower {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.subtitle.lower::after {
+  margin-top: 5px;
+}
+
+.quality ul li p {
+  margin-left: 50px;
+  width: 200px;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 20px;
+}
