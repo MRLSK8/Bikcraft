@@ -1,0 +1,69 @@
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+.introduction {
+  width: 100%;
+  height: 380px;
+  background: url('../../../assets/background/bg.jpg') no-repeat;
+  text-align: center;
+}
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-content h1 {
+  text-transform: uppercase;
+  color:white;
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 80px;
+}
+
+.external-quote {
+  color: white;
+  max-width: 270px;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.external-quote p {
+  font-style: italic;
+  line-height: 20px;
+}
+
+.external-quote p::before, .external-quote p::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: white;
+  margin: 12px auto 12px auto;
+}
+
+.external-quote cite {
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+.btn {
+  border: 3px solid #FEC63E;
+  width: 140px;
+  height: 40px;
+  background: transparent;
+  color: #FEC63E;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: .1em;
+}
+
+.btn:hover {
+  color: white;
+  border-color: white;
+}

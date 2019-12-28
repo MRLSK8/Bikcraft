@@ -1,8 +1,6 @@
 import React from 'react';
-import './home.css';
+import Introduction from './Introduction/introduction';
 
 export default function Home() {
-  return (
-    <div/>
-  );
+  return <Introduction />;
 }
