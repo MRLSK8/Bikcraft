@@ -57,7 +57,12 @@
 }
 
 .social-medias ul li:nth-child(2) {
-  margin-top: 10px;
+  margin-top: 8px;
   margin-left: 0px;
   padding: 0;
+}
+
+.social-medias img {
+  padding: 5px;
+  border: 3px solid #FEC63E;
 }
