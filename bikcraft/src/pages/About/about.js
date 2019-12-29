@@ -1,6 +1,14 @@
 import React from 'react';
-import './about.css';
+import Quality from '../Home/Qualities/quality';
+import Introduction from './Introduction/introduction';
+import Content from './Content/content';
 
 export default function About() {
-  return <div />;
+  return (
+    <section>
+      <Introduction/>
+      <Content/>
+      <Quality/>
+    </section>
+  );
 }

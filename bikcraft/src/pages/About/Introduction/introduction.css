@@ -1,0 +1,25 @@
+.introduction-about {
+  width: 100%;
+  height: 160px;
+  background: url('../../../assets/background/bg-sobre.jpg') no-repeat;
+  background-size: cover;
+}
+
+.introduction-about p {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.subtitle-about {
+  color: white;
+  font-size: 36px;
+  padding-top: 45px;
+  padding-bottom: 0px;
+}
+
+.subtitle-about::after {
+  background-color: white;
+}
+
