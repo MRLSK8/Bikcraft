@@ -1,9 +1,11 @@
 import React from 'react';
 import './content.css';
+import equipe from '../../../assets/equipe-bikcraft.jpg';
 
 export default function Content() {
   return (
-    <div className='container about-content'>
+    <div className='container'>
+      <div className='container about-content'>
         <div className='history'>
           <h3 className='subtitle subtitle-content'>
             História, Missão e Visão
@@ -25,10 +27,11 @@ export default function Content() {
             - Qualidade no processo com
             <br />
             - Foco no cliente sem perder a<br />
-            - Diversão, preservando a<br />
-            - Natureza com sustentabilidade
+            - Diversão, preservando a<br />- Natureza com sustentabilidade
           </p>
         </div>
       </div>
+      <img src={equipe} alt='' />
+    </div>
   );
 }
