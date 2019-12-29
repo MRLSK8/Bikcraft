@@ -9,6 +9,10 @@ import esporte from '../../../assets/products/bikcraft-esporte-1.jpg';
 import esporte2 from '../../../assets/products/bikcraft-esporte-2.jpg';
 import iconeEsporte from '../../../assets/products/esporte.svg';
 
+import retro from '../../../assets/products/bikcraft-retro-1.jpg';
+import retro2 from '../../../assets/products/bikcraft-retro-2.jpg';
+import iconeRetro from '../../../assets/products/retro.svg';
+
 export default function ProductsPhotos() {
   return (
     <div className='container'>
@@ -18,7 +22,7 @@ export default function ProductsPhotos() {
           <img className='icone' src={iconePasseio} alt='iconePasseio' />
         </div>
         <div className='grid2'>
-          <img src={passeio2} alt='passeio' />
+          <img src={esporte2} alt='passeio' />
           <div className='product-info'>
             <p>
               O verdadeiro segredo da felicidade está em ter um genuíno
@@ -60,11 +64,11 @@ export default function ProductsPhotos() {
       </section>
       <section className='retro'>
         <div className='grid1'>
-          <img src={esporte} alt='passeio' />
-          <img className='icone' src={iconeEsporte} alt='iconePasseio' />
+          <img src={retro} alt='passeio' />
+          <img className='icone' src={iconeRetro} alt='iconePasseio' />
         </div>
         <div className='grid2'>
-          <img src={passeio2} alt='passeio' />
+          <img src={retro2} alt='passeio' />
           <div className='product-info'>
             <p>
               O verdadeiro segredo da felicidade está em ter um genuíno
