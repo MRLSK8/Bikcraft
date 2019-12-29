@@ -1,0 +1,74 @@
+.passeio, .retro, .esporte {
+  margin: 50px 0;
+  height: 580px;
+}
+
+.icone {
+  width: 100%;
+  height: 280px;
+  padding: 60px;
+  background-color: black;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 650px 1fr;
+  margin-bottom: 10px;
+}
+
+.grid2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtitle-sport {
+  position: relative;
+  color: rgb(255, 255, 255);
+  top: -520px;
+  left: -150px;
+}
+
+.subtitle-sport::after {
+  background-color: white;
+}
+
+.subtitle-sport::before {
+  display: block;
+  content: '';
+  width: 60px;
+  height: 3px;
+  background-color: rgb(251, 251, 251);
+  margin: 8px auto;
+}
+
+.product-info {
+  background-color: black;
+  margin-left: 10px;
+}
+
+.product-info p {
+  text-align: left;
+  line-height: 25px;
+  font-size: 18px;
+  padding: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+
+
+.product-info ul{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+}
+
+.product-info ul li {
+  text-transform: uppercase;
+  background-color: #FEC63E;
+  font-weight: bold;
+  margin: 2px;
+  font-size: 14px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
