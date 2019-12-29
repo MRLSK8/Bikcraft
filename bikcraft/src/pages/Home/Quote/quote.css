@@ -1,0 +1,10 @@
+.quote {
+  background: url('../../../assets/background/bg-footer.jpg') no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 220px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+}
