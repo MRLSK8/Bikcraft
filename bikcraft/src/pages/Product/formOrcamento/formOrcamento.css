@@ -1,0 +1,54 @@
+.orcamento-content {
+  display: flex;
+  flex-direction: row;
+}
+h3.subtitle-orcamento {
+  color: #fec63e;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+
+h3.subtitle-orcamento::after {
+  background-color: #fec63e;
+}
+
+.orcamento {
+  background-color: black;
+  width: 100%;
+  padding: 30px;
+}
+
+.orcamento-dados {
+  padding: 40px;
+  margin-left: 70px;
+  color: white;
+}
+.orcamento-dados h2 {
+  color: #fec63e;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.orcamento-dados p {
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.orcamento-dados ul{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#escolha-esp {
+  font-size: 14px;
+}
+.orcamento-dados ul li {
+  width: 340px;
+}
+
+.orcamento-dados ul li:nth-child(1),
+.orcamento-dados ul li:nth-child(3),
+.orcamento-dados ul li:nth-child(5) {
+  background-color: #292929;
+}

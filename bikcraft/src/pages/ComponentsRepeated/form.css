@@ -1,0 +1,36 @@
+#form {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+
+input {
+  height: 40px;
+}
+
+input,
+textarea {
+  border: 4px solid #fec63e;
+  resize: none;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  width: 400px;
+  background: transparent;
+}
+
+textarea {
+  height: 120px;
+}
+
+#form label {
+  font-size: 18px;
+  padding: 10px auto;
+  color: white;
+  margin-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn-form {
+  margin: 10px 0;
+}
