@@ -1,0 +1,17 @@
+.citacao p{
+  text-align: center;
+  margin: 30px auto 10px auto;
+  font-size: 18px;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 440px;
+  line-height: 25px;
+}
+
+.citacao h3 {
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+}

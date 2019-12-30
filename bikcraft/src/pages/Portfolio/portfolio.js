@@ -1,6 +1,17 @@
 import React from 'react';
-import './portfolio.css';
+
+import Quote from '../Home/Quote/quote';
+import Introduction from './Introduction/introduction';
+import Citacao from './Citacao/citacao';
+import PortfolioImages from './PortfolioImages/portfolioImages';
 
 export default function Portfolio() {
-  return <div />;
+  return (
+    <>
+      <Introduction />
+      <Citacao />
+      <PortfolioImages />
+      <Quote />
+    </>
+  );
 }
