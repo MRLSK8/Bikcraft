@@ -18,13 +18,13 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link to='/about'>
-                <span>About</span>
+              <Link to='/about-us'>
+                <span>About us</span>
               </Link>
             </li>
             <li>
               <Link to='/product'>
-                <span>Products</span>
+                <span>Product</span>
               </Link>
             </li>
             <li>
@@ -33,8 +33,8 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link to='/contact-us'>
-                <span>Contact us</span>
+              <Link to='/contact'>
+                <span>Contact</span>
               </Link>
             </li>
           </ul>

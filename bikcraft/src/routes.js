@@ -15,8 +15,8 @@ export default function Routes() {
         <Route path="/" component={Header}/>
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact-us" component={Contact} />
+          <Route path="/about-us" component={About} />
+          <Route path="/contact" component={Contact} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/product" component={Product} />
         </Switch>

@@ -1,0 +1,28 @@
+.contact-content {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container-contact img {
+  margin-bottom: 40px;
+}
+
+.data-contact p {
+  color: black;
+  line-height: 30px;
+}
+
+.data-contact h2 {
+  color: #fec63e;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.data-contact a img{
+  border: 3px solid #fec63e;
+  padding: 7px;
+  margin-right: 7px;
+  margin-top: 10px;
+}
